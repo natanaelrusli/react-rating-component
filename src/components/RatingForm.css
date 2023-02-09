@@ -1,0 +1,119 @@
+.rating-form {
+  @apply w-full;
+}
+
+.rating-form__title {
+  @apply mb-2;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 0.6px;
+}
+
+.rating-form__paragraph {
+  @apply mt-2;
+  color: var(--color-neutral-light-gray);
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+}
+
+.rating-form__icon {
+  @apply mb-5;
+  @apply p-2;
+  border-radius: 100%;
+  background-color: rgb(85, 85, 85);
+}
+
+.rating-form_action {
+  @apply mt-3;
+}
+
+.rating-form_action-button {
+  @apply my-4;
+  @apply w-full;
+  @apply flex;
+  @apply justify-between;
+}
+
+.rating-form_action-button > button {
+  @apply p-3;
+  @apply w-12;
+  @apply h-12;
+  @apply text-center;
+  border-radius: 100%;
+  background-color: var(--color-neutral-medium-gray);
+  color: var(--color-neutral-light-gray);
+}
+
+.rating-form_action-button > .active {
+  background-color: var(--color-primary-orange);
+  color: #fff;
+}
+
+.rating-form_action-button > .active:hover {
+  background-color: var(--color-primary-orange);
+  color: #fff;
+}
+
+.rating-form_action-button > button:hover {
+  background-color: var(--color-neutral-light-gray);
+  color: #fff;
+}
+
+.rating-form_action-submit {
+  @apply mt-7;
+  @apply w-full;
+}
+
+.rating-form_action-submit > button {
+  @apply w-full;
+  @apply p-3;
+  @apply text-center;
+  @apply align-middle;
+  @apply rounded-2xl;
+  color: #fff;
+  background-color: var(--color-primary-orange);
+}
+
+.rating-form-thanks {
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+  @apply flex-col;
+}
+
+.rating-form-thanks-result {
+  @apply mt-6;
+  @apply px-5;
+  @apply py-1.5;
+  @apply rounded-2xl;
+  background-color: var(--color-neutral-medium-gray);
+  color: var(--color-primary-orange);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.rating-form-thanks-image {
+  @apply mb-1;
+}
+
+.rating-form-thanks-title {
+  @apply mb-2;
+  @apply mt-8;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 0.6px;
+}
+
+.rating-form-thanks-paragraph {
+  @apply text-center;
+  @apply mt-1;
+  @apply mb-4;
+  color: var(--color-neutral-light-gray);
+  font-weight: 200;
+  font-size: 14.5px;
+}

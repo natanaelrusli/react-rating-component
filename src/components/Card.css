@@ -1,0 +1,10 @@
+.card {
+  @apply block;
+  @apply max-w-sm;
+  @apply min-h-max;
+  @apply m-auto;
+  @apply p-7;
+  @apply rounded-3xl;
+  @apply shadow-lg;
+  background-color: var(--color-neutral-dark-blue);
+}

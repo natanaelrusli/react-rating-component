@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  --color-primary-orange: hsl(25deg 97% 53%);
+  --color-neutral-dark-blue: hsl(213deg, 19%, 18%);
+  --color-neutral-white: hsl(0deg, 0%, 100%);
+  --color-neutral-very-dark-blue: hsl(216deg, 12%, 8%);
+  --color-neutral-light-gray: hsl(217deg, 12%, 63%);
+  --color-neutral-medium-gray: hsl(212, 11%, 24%);
+}
+
+.app {
+  @apply flex;
+  @apply justify-center;
+  @apply align-middle;
+  @apply min-w-full;
+  @apply h-screen;
+  font-family: 'Overpass', sans-serif;
+  background-color: #000;
+}
